@@ -1,0 +1,158 @@
+body {
+
+	background-color: green;
+	
+}
+
+#navbar {
+	background-color: #00345d;
+	margin: 0px auto 0px auto;
+	width: 850px;
+	height: 32px;
+	border: 1px solid black;
+}
+
+#navbar ul {
+	list-style-type: none;
+	margin: 0px 5px;
+	padding: 0px;
+}
+
+#navbar li {
+	border: 1px solid black;
+	background-color: #00345d;
+	display: inline;
+	font-size: 21px;
+	float: left;
+	text-align: center;
+	margin: 0px 2px 0px 2px;
+}
+
+#navbar li:hover {
+	background-color: #000000;
+}
+
+#navbar a {
+	display: block;
+	width: 133px;
+	height: 30px;
+}
+
+#navbar a:link {
+	color: white;
+}
+
+#navbar a:visited {
+	color: white;
+}
+
+#navbar a:hover {
+	color: gold;
+}
+
+#wrapper {
+	padding: 5px 5px 5px 5px;
+	width: 840px;
+	height: 315px;
+	font-family: Arial;
+	font-size: 12px;
+	margin: 0px auto 0px auto;
+	border: 1px solid black;
+	background-color: gold;
+	overflow: auto;
+	color: black;
+}
+
+#bio {
+	background-color: gold;
+	border-top: 5px;
+}
+
+
+#table_labs {
+	border: 1px solid black;
+	width: 420px;
+	color: black;
+	border: 1px solid black;
+}
+
+#table_labs tr td a:link {
+	color: black;
+}
+
+#table_labs table tr td a:visited {
+	color: black;	
+}
+
+#table_labs tr td a:hover {
+	color: white;
+}
+
+#table_labs2 {
+
+margin: 10px 0px 0px 85px;
+
+}
+
+#table_labs2 tr td {
+
+	background-color: #00345d;
+	text-align: center;
+	font-size: 12px;
+	border: 3px solid black;
+	width: 120px;
+	height: 10px;
+	vertical-align: center;
+
+}
+
+#table_labs2 tr td:hover {
+	background-color: black;
+}
+
+#table_labs2 tr td a {
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin: 20px 0px
+}
+
+#table_labs2 tr td a:link {
+	color: white;
+}
+
+#table_labs2 tr td a:active {
+	color: white;
+}
+
+#table_labs2 tr td a:visited {
+	color: white;
+}
+
+#table_labs2 tr td a:hover {
+	color: gold;
+}
+
+#div_bio {
+	width: 410px;
+	float: left;
+}
+
+#div_picture {
+	width: 410px;
+	float: left;
+}
+
+#div_picture img {
+	border: 1px solid black;
+	margin: 15px 0px 0px 60px;
+}
+
+#footer {
+	width: 840px;
+	margin: 0px auto 0px auto;
+	background-color: #00345d;
+	padding: 0px 5px;
+	border: 1px solid black;
+	clear: both;
+}
